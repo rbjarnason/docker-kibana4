@@ -2,9 +2,9 @@ FROM yrpri/java-base
 
 RUN \
   cd /tmp && \
-  wget https://download.elasticsearch.org/kibana/kibana/kibana-4.0.0-BETA2.tar.gz &&\
-  tar xvzf kibana-4.0.0-BETA2.tar.gz && \
-  mv /tmp/kibana-4.0.0-BETA2 /kibana
+  wget https://download.elasticsearch.org/kibana/kibana/kibana-4.0.0-beta3.tar.gz &&\
+  tar xvzf kibana-4.0.0-beta3.tar.gz && \
+  mv /tmp/kibana-4.0.0-beta3 /kibana
 
 ENV KIBANA_PORT 5601
 ENV KIBANA_HOST 0.0.0.0
