@@ -6,7 +6,7 @@ RUN \
   tar xvzf kibana-4.0.0-beta3.tar.gz && \
   mv /tmp/kibana-4.0.0-beta3 /kibana
 
-ENV KIBANA_PORT 5601
+ENV KIBANA_PORT 5642
 ENV KIBANA_HOST 0.0.0.0
 ENV ES_HOST example.es.com
 ENV ES_PORT 9200
