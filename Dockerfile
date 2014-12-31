@@ -23,4 +23,4 @@ ADD supervisor.conf /etc/supervisor/conf.d/kibana4.conf
 
 WORKDIR /kibana
 
-EXPOSE 5601
+EXPOSE 5642
