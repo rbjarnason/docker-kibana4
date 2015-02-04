@@ -1,7 +1,6 @@
 port: ::KIBANA_PORT::
 host: "::KIBANA_HOST::"
-elasticsearch_url: "http://::ES_HOST:::::ES_PORT::"
-elasticsearch_preserve_host: true
+elasticsearch: "http://::ES_HOST:::::ES_PORT::"
 kibana_index: "::KIBANA_INDEX::"
 default_app_id: "::APP_ID::"
 request_timeout: ::REQUEST_TIMEOUT::
@@ -10,6 +9,9 @@ verify_ssl: ::VERIFY_SSL::
 bundledPluginIds:
  - plugins/dashboard/index
  - plugins/discover/index
+ - plugins/doc/index
+ - plugins/kibana/index
+ - plugins/metric_vis/index
  - plugins/settings/index
  - plugins/table_vis/index
  - plugins/vis_types/index
